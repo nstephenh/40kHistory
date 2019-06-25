@@ -6,6 +6,20 @@ kramdown:
 future: true
 jailed: false
 gfm_quirks: paragraph_end
-name: 40k History
+title: 40k History
 exclude:
   - .idea
+  -  start.sh
+collections:
+  units:
+    output: true
+    permalink: /units/:categories/:title.html
+  rules:
+    output: true
+    permalink: /rules/:categories/:title.html
+  weapons:
+    output: true
+    permalink: /weapons/:categories/:title.html
+  models:
+    output: true
+    permalink: /models/:categories/:title.html

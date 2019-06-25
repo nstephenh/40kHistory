@@ -1,1 +1,13 @@
+---
+layout: default
+---
 <h1>40k Unit Histories</h1>
+
+
+{% for unit in site.units %}
+<h3>{{unit.url}}</h3>
+{% endfor %}
+<h2> Models </h2>
+{% for model in site.models %}
+<h3>{{model.modelid}}</h3>
+{% endfor %}
