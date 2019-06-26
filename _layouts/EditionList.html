@@ -5,5 +5,5 @@ layout: default
 <h2>Units</h2>
 {% assign units = site.units | where: "category", page.edition %}
 {% for unit in units %}
-<h3><a href="{{unit.url}}">{{unit.name}}</a></h3>
+<h3><a href="{{unit.url | relative_url}}">{{unit.name}}</a></h3>
 {% endfor %}
