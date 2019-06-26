@@ -13,13 +13,19 @@ exclude:
 collections:
   units:
     output: true
-    permalink: /units/:categories/:title.html
+    permalink: /:categories/units/:title.html
   rules:
     output: true
-    permalink: /rules/:categories/:title.html
+    permalink: /:categories/rules/:title.html
   weapons:
     output: true
-    permalink: /weapons/:categories/:title.html
+    permalink: /:categories/weapons/:title.html
   models:
     output: true
-    permalink: /models/:categories/:title.html
+    permalink: /:categories/models/:title.html
+  editions:
+    output: true
+    permalink: /:title.html
+  sources:
+    output: true
+    permalink: /:categories/sources/:title.html

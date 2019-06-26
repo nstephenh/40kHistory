@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
-<h1>40k Unit Histories</h1>
+<h1>40k History</h1>
 
+Ever wondered about how 40k has evolved over the years?
+This website tracks the history units over the history of the game.
 
+<h2>Units</h2>
 {% for unit in site.units %}
 <h3><a href="{{unit.url}}">{{unit.name}}</a></h3>
+{% endfor %}
+<h2>Editions</h2>
+{% for edition in site.editions %}
+<h3><a href="{{edition.url}}">{{edition.title}}</a></h3>
 {% endfor %}
